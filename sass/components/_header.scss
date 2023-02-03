@@ -1,0 +1,64 @@
+
+.header {
+    margin: 0;
+    padding: 0;
+    padding: 20px 0;
+    background-color:grey;
+}
+
+.main-nav__site-item {
+    display: flex;
+}
+
+.main-nav__site {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__site {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+// .main-nav__item {
+//     text-decoration: none;
+// }
+
+.main-nav__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.main-nav__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+}
+
+.site-auth {
+    padding: 0;
+    margin: 0;
+    margin-left: 37px;
+}
+
+.hero-button {
+    padding: 12px 20px;
+    margin: 0;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
