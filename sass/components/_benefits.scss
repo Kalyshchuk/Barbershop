@@ -1,0 +1,52 @@
+.benefits {
+    display: flex;
+    // margin: 100px 0;
+    // padding: 0;
+}
+
+.about {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    
+    color: #303030;
+}
+
+.about::before {
+    content: '';
+    display: flex;
+    width: 60px;
+    height: 1px;
+    background: #303030;
+}
+
+.title-next {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    
+    color: #303030;
+}
+
+.our-strong {
+    margin: 0;
+    margin-bottom: 77px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+    
+    color: #555555;
+}
